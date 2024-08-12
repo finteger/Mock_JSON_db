@@ -13,5 +13,5 @@ app.use(express.static('public'));
 
 
 app.listen(PORT, () => {
-   console(`Connected on port ${PORT}`);
+   console.log(`Connected on port ${PORT}`);
 });
