@@ -1,4 +1,5 @@
 const express = require('express');
+const userRoute = require('./routes/users.js');
 require('dotenv').config();
 
 const app = express();
@@ -9,7 +10,7 @@ app.set('views', './views');
 
 
 app.use(express.static('public'));
-
+app.use(userRoute);
 
 
 app.listen(PORT, () => {
