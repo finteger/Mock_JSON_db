@@ -11,6 +11,12 @@
       "username": "User2",
       "first_name": "Janet",
       "email": "Janet@aol.com"
+    },
+    {
+      "id": 2,
+      "username": "Todd",
+      "first_name": "Todd",
+      "email": "Todd@email.com"
     }
   ]
 }
