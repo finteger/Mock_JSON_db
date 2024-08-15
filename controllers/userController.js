@@ -58,7 +58,7 @@ async function updateUser(req, res){
 async function deleteUser(req, res){
     try {
          const data = await readData();
-         const userIndex = data.users.find(user => user.id  === parseInt(req.params.id));
+         const userIndex = data.users.findIndex(user => user.id  === parseInt(req.params.id));
  
          if(userIndex !== -1){
             data.users.splice(userIndex, 1);

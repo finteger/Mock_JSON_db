@@ -1,16 +1,3 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "User2",
-      "first_name": "Janet",
-      "email": "Janet@aol.com"
-    },
-    {
-      "id": 2,
-      "username": "Random2",
-      "first_name": "Random2",
-      "email": "Random2@gmail.com"
-    }
-  ]
+  "users": []
 }
